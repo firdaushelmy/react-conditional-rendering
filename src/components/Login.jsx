@@ -1,5 +1,5 @@
 import React from 'react';
-import Input from './Input'
+import Input from './Input';
 
 function Login() {
   return (
@@ -14,7 +14,7 @@ function Login() {
       />
       <button type="submit">Login</button>
     </form>
-  )
+  );
 }
 
 export default Login;

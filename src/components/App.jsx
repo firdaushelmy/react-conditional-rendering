@@ -1,18 +1,16 @@
 import React from 'react';
 import Login from './Login';
 
-let isLoggedIn = true
+const isLoggedIn = true;
 
 function renderConditionally() {
   if (isLoggedIn === false) {
-    return <h1>Hello</h1>
-  } else {
-    return (
-      <Login />
-    )
+    return <h1>Hello</h1>;
   }
+  return (
+    <Login />
+  );
 }
-
 
 function App() {
   return (
